@@ -123,3 +123,42 @@ aside[role="complementary"] {
   width: math.div(300px, 960px) * 100%;
   margin-left: auto;
 } 
+
+$layers: (
+  'navigation',
+  'logo',
+  'logo-popup',
+  'overlay'
+);
+
+// @each $layer in $layers {
+//   .#{$layer} {
+//     z-index: index($layers, $layer);
+//   }
+// }
+
+@function layer-index($layer) {
+  @return index($layers, $layer); //returns the index of the layer in the list
+} 
+
+@mixin z-index($layer, $position:relative) {
+  $position: $position;
+  z-index: layer-index($layer); //set z-index to the index of the layer
+}
+  
+.navigation {
+  @include z-index('navigation', absolute);
+} 
+
+.logo {
+  @include z-index('logo'); //position is relative by default
+}
+
+.logo-popup {
+  @include z-index('logo-popup', absolute);
+}
+
+.overlay {
+  @include z-index('overlay', absolute);
+}
+

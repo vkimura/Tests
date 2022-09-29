@@ -109,4 +109,20 @@ aside[role=complementary] {
   margin-left: auto;
 }
 
+.navigation {
+  z-index: 1;
+}
+
+.logo {
+  z-index: 2;
+}
+
+.logo-popup {
+  z-index: 3;
+}
+
+.overlay {
+  z-index: 4;
+}
+
 /*# sourceMappingURL=style-out.css.map */

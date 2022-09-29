@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@squoosh/lib": "^0.4.0",
+    "squoosh-webpack-plugin": "^2.1.1"
+  },
+  "name": "squooshtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

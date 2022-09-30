@@ -1,5 +1,5 @@
 const path = require('path');
-const { SquooshPlugin } = require("squoosh-webpack-plugin");
+// const { SquooshPlugin } = require("squoosh-webpack-plugin");
 
 module.exports = {
     mode: 'development',
@@ -11,16 +11,16 @@ module.exports = {
         path: path.resolve(__dirname, 'public'),
         clean: true,
     },
-    plugins: [
-        new SquooshPlugin({
-            dirs: 'src/images',
-            outDir: 'public/images',
-            codec: 'webp',
-            encoderOptions: {
-                quality: 75
-            }
-        })
-    ]
+    experiments: {
+        topLevelAwait: true,
+    },
+    resolve: {
+        fallback: {
+            "path": false,
+        },
+    },
+
+        
     // devtool: 'source-map',
     // devServer: {
     //     static: path.resolve(__dirname, 'dist'),

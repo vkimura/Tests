@@ -1,5 +1,6 @@
 alert('Hello Webpack Project.');
 
+// import fs from 'fs/promises';
 import { ImagePool } from '@squoosh/lib';
 // import { cpus } from 'os';
 // const imagePool = new ImagePool(cpus().length);
@@ -23,12 +24,12 @@ await image.preprocess({
 await image.encode({
     // All codecs are initialized with default values
     // that can be individually overwritten.
-    webp: {
-        quality: 70,
-    }
-    // mozjpeg: {
-    //     quality: 10,
-    // },
+    // webp: {
+    //     quality: 70,
+    // }
+    mozjpeg: {
+        quality: 10,
+    },
     // avif: {
     //     cqLevel: 10,
     // },
@@ -36,8 +37,8 @@ await image.encode({
 });
 
 // const { extension, binary } = await image.encodedWith.mozjpeg;
-const { extension, binary } = await image.encodedWith.webp;
-await fs.writeFile(`output.${extension}`, binary);
+// const { extension, binary } = await image.encodedWith.webp;
+// await fs.writeFile(`output.${extension}`, binary);
 
 await imagePool.close();
 

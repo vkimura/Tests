@@ -38,19 +38,19 @@ nav a {
 .info {
   background: DarkGray;
   box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
-  color: #fff;
+  color: rgb(241, 170, 170);
 }
 
 .alert {
   background: DarkRed;
   box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
-  color: #fff;
+  color: rgb(241, 170, 170);
 }
 
 .success {
   background: DarkGreen;
   box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
-  color: #fff;
+  color: rgb(241, 170, 170);
 }
 
 /* Extend Inheritance */
@@ -58,7 +58,7 @@ nav a {
 .warning, .error, .success, .message {
   border: 1px solid #ccc;
   padding: 10px;
-  color: #333;
+  color: rgb(108, 108, 108);
 }
 
 .success {

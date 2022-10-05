@@ -9,17 +9,33 @@
     "build": "webpack --mode development",
     "build:prod": "webpack --mode production",
     "build:watch": "webpack --mode development --watch",
-    "httpserver": "http-server . -p 8181"
+    "httpserver": "http-server . -p 8181",
+    "hslink": "npm link http-server",
+    "dev": "npm-run-all --parallel build:watch httpserver",
+    "devweb": "webpack serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
+    "webpack-dev-server": "^4.11.1",
     "yarn": "^1.22.19"
   },
   "dotenv-webpack": "^8.0.1",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "@babel/core": "^7.19.3",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "http-server": "^14.1.1",
+    "husky": "^8.0.1",
+    "node-sass": "^7.0.3",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1"
   }
 }

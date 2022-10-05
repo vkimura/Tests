@@ -1,0 +1,9 @@
+$font-size: 1rem;
+$font-color: lch(53, 105, 40);
+$font-family: 'Roboto', sans-serif;
+
+html {
+    font-size: $font-size;
+    color: $font-color;
+    font-family: $font-family;
+}

@@ -12,6 +12,23 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
+    <!-- <script src="https://js.sentry-cdn.com/a720ad9a8d5a4d789d97e4f13258487d@o4503943617970176.min.js"  crossorigin="anonymous"></script> -->
+    <script src='https://js.sentry-cdn.com/a720ad9a8d5a4d789d97e4f13258487d.min.js' crossorigin="anonymous"></script>
+    <!-- <script  src="https://browser.sentry-cdn.com/7.14.2/bundle.tracing.min.js"  integrity="sha384-nSpBDcnADgs8IDDFHkqpqTrYOs/BUtPln5plrrNrKjRblN04KV5gCcJi1UzNr9B5" crossorigin="anonymous"></script> -->
+    <script>
+        // import * as Sentry from "@sentry/browser";
+        // import { BrowserTracing } from "@sentry/tracing";
+
+        Sentry.init({
+            dsn: "https://a720ad9a8d5a4d789d97e4f13258487d@o4503943617970176.ingest.sentry.io/4503943670595584",
+            integrations: [new BrowserTracing()],
+
+            // Set tracesSampleRate to 1.0 to capture 100%
+            // of transactions for performance monitoring.
+            // We recommend adjusting this value in production
+            tracesSampleRate: 1.0,
+        });
+    </script>
     <script>
         var _rollbarConfig = {
             accessToken: 'aae6eb04fcef4ed3bd1ab5ebbf30d622',

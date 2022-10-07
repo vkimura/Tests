@@ -12,7 +12,7 @@
     "httpserver": "http-server . -p 8181",
     "hslink": "npm link http-server",
     "dev": "npm-run-all --parallel build:watch httpserver",
-    "devweb": "webpack serve"
+    "start:dev": "webpack serve --config webpack.config.js"
   },
   "keywords": [],
   "author": "",

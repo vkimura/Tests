@@ -22,4 +22,6 @@ class User {
   let user = new User("John");
   alert(user.name); // John
   
-  user = new User(""); // Name is too short.
+user = new User(""); // Name is too short.
+  
+myUndefinedFunction();

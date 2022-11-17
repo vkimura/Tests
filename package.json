@@ -9,6 +9,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@builder.io/partytown": "^0.7.1",
     "@sentry/browser": "^7.14.2",
     "@sentry/tracing": "^7.14.2",
     "clean-webpack-plugin": "^4.0.0"

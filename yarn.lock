@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@builder.io/partytown@^0.7.1":
-  "integrity" "sha512-hvu2gG9NDtCa5aoL4JkvDe3E5SegXlHAkhtA+Az96uTtFA0PYuEPjDYGiayGTkZuRKUmxetebWjIFgSDNdlBOw=="
-  "resolved" "https://registry.npmjs.org/@builder.io/partytown/-/partytown-0.7.1.tgz"
-  "version" "0.7.1"
+"@builder.io/partytown@^0.7.2":
+  "integrity" "sha512-TmRHuN4gdsOJxBGsPPirJAMuXDm0o9cx9t5ltSson+F+K5ES3eNiBCxBGvSSkoEARvZ+kl1n7WVi+8qNyJdeAQ=="
+  "resolved" "https://registry.npmjs.org/@builder.io/partytown/-/partytown-0.7.2.tgz"
+  "version" "0.7.2"
 
 "@discoveryjs/json-ext@^0.5.0":
   "integrity" "sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw=="

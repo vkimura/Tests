@@ -1,0 +1,7 @@
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\bin\Debug\ConsoleAppExcelCrudNETFramework.exe.config
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\bin\Debug\ConsoleAppExcelCrudNETFramework.exe
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\bin\Debug\ConsoleAppExcelCrudNETFramework.pdb
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\obj\Debug\ConsoleAppExcelCrudNETFramework.csproj.ResolveComReference.cache
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\obj\Debug\ConsoleAppExcelCrudNETFramework.csproj.CoreCompileInputs.cache
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\obj\Debug\ConsoleAppExcelCrudNETFramework.exe
+C:\Users\vkimura\source\repos\ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework\obj\Debug\ConsoleAppExcelCrudNETFramework.pdb

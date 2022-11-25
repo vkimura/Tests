@@ -1,0 +1,11 @@
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\bin\Debug\ExcelReport.exe.config
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\bin\Debug\ExcelReport.exe
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\bin\Debug\ExcelReport.pdb
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\obj\x86\Debug\ExcelReport-Orders.csproj.AssemblyReference.cache
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\obj\x86\Debug\ExcelReport-Orders.csproj.ResolveComReference.cache
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\obj\x86\Debug\ExcelReport-Orders.csproj.CoreCompileInputs.cache
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\obj\x86\Debug\ExcelReport.exe
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\obj\x86\Debug\ExcelReport.pdb
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vkimura\Downloads\6794_SampleCode-Data\ExcelReport-Orders\obj\x86\Debug\ExcelReport-Orders.csproj.CopyComplete

@@ -1,0 +1,24 @@
+{
+	"files": [
+		{
+			"path": "DoesFileExistInFolder.ps1",
+			"bookmarks": [
+				{
+					"line": 40,
+					"column": 16,
+					"label": ""
+				},
+				{
+					"line": 115,
+					"column": 33,
+					"label": ""
+				},
+				{
+					"line": 270,
+					"column": 23,
+					"label": ""
+				}
+			]
+		}
+	]
+}

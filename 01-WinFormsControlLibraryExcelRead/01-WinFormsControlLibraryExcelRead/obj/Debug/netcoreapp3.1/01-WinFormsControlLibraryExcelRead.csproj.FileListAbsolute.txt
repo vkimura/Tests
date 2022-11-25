@@ -1,0 +1,15 @@
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\bin\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.deps.json
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\bin\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.dll
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\bin\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.pdb
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.csproj.ResolveComReference.cache
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\_01_WinFormsControlLibraryExcelRead.UserControl1.resources
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.csproj.GenerateResource.cache
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.AssemblyInfoInputs.cache
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.AssemblyInfo.cs
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.csproj.CoreCompileInputs.cache
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.dll
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.pdb
+C:\Users\vkimura\source\repos\01-WinFormsControlLibraryExcelRead\01-WinFormsControlLibraryExcelRead\obj\Debug\netcoreapp3.1\01-WinFormsControlLibraryExcelRead.csproj.AssemblyReference.cache

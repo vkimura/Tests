@@ -1,0 +1,136 @@
+﻿/*mobile: min-width:200px*/
+body {
+    font-size: 1.6rem;
+    
+}
+
+.hero {
+    /*background-image: url("https://via.placeholder.com/320x240.webp?text=320x240+webp");*/
+}
+
+
+
+.picture_resize {
+    width: 599px;
+}
+
+.image_1 {
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+}
+
+@media (min-width: 400px) {
+    .image_1 {
+        width: 450px;
+        height: calc(450*240/320);
+    }
+}
+
+@media (min-width: 499px) {
+    .image_1 {
+        width: 500px;
+        height: 360px;
+    }
+}
+
+/*tablet - portrait Apple iPad mini*/
+@media (min-width: 749px) {
+    body {
+        font-size: 2.3rem;
+    }
+
+    .hero {
+        /*background-image: url("https://via.placeholder.com/750x562.webp?text=750x562+webp");*/
+    }
+
+    .picture_resize {
+        width: 749px;
+    }
+
+    .image_1 {
+        width:749px;
+        height: 562px;
+    }
+}
+
+@media (min-width: 899px) {
+    .image_1 {
+        width: 970px;
+        height: 545px;
+    }
+}
+
+/*1366x768*/
+@media (min-width:1099px) {
+    body {
+        font-size: 1.7em;
+    }
+
+    .hero {
+       /*background-image: url("https://via.placeholder.com/1170x658.webp?text=1170x658+webp");*/
+    }
+
+    .picture_resize {
+        width: 1169px;
+    }
+
+    .image_1 {
+        width: 1170px;
+        height: 658px;
+    }
+}
+
+/*1536x864*/
+@media (min-width:1400px) {
+    .image_1 {
+        width: 1500px;
+        height: 844px;
+    }
+}
+
+/*1920x1080*/
+@media (min-width:1800px) {
+    .image_1 {
+        width: 1850px;
+        height: 1040px;
+    }
+}
+
+grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 75px;
+    grid-gap: 10px;
+}
+
+grid-item {
+    display: flex; /* new */
+    align-items: center; /* new */
+    justify-content: center; /* new */
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}

@@ -1,0 +1,10 @@
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\01-WindowsFormsAppExcelRead.csproj.ResolveComReference.cache
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\_01_WindowsFormsAppExcelRead.Form1.resources
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\_01_WindowsFormsAppExcelRead.Properties.Resources.resources
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\01-WindowsFormsAppExcelRead.csproj.GenerateResource.cache
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\01-WindowsFormsAppExcelRead.csproj.CoreCompileInputs.cache
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\bin\Release\01-WindowsFormsAppExcelRead.exe.config
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\bin\Release\01-WindowsFormsAppExcelRead.exe
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\bin\Release\01-WindowsFormsAppExcelRead.pdb
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\01-WindowsFormsAppExcelRead.exe
+C:\Users\vkimura\source\repos\01-WindowsFormsAppExcelRead\01-WindowsFormsAppExcelRead\obj\Release\01-WindowsFormsAppExcelRead.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XQBe6onReMq+L9/jH8EHlbEy/Eipy5J2pDk5hMjxKXdNjCBAJ2El6Gua38rgF/Ms2h9qoxgxfSL3UjfEYHB+/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vkimura\\source\\repos\\01-ConsoleAppExcelCRUDNETCore\\01-ConsoleAppExcelCRUDNETCore\\01-ConsoleAppExcelCRUDNETCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vkimura\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

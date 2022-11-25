@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32317.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SocialAuth", "Test_SocialAuth\Test_SocialAuth.csproj", "{017BB910-033D-469D-B46E-FE1F9ECC288F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SocialAuth.Tests", "Test_SocialAuth.Tests\Test_SocialAuth.Tests.csproj", "{567D393A-C7BE-4C3F-97C6-C4E7BE3CFAD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{017BB910-033D-469D-B46E-FE1F9ECC288F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017BB910-033D-469D-B46E-FE1F9ECC288F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017BB910-033D-469D-B46E-FE1F9ECC288F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017BB910-033D-469D-B46E-FE1F9ECC288F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567D393A-C7BE-4C3F-97C6-C4E7BE3CFAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567D393A-C7BE-4C3F-97C6-C4E7BE3CFAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567D393A-C7BE-4C3F-97C6-C4E7BE3CFAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567D393A-C7BE-4C3F-97C6-C4E7BE3CFAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {806AB2DA-3321-465A-A810-BDE80C6ECA97}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,100 @@
+﻿@using WebApplicationMVC.Models
+
+@{
+    ViewBag.Title = "About";
+    var browserInfo = ViewBag.UserAgentInfo;
+
+    @*Test image*@
+    if (browserInfo.BrowserUsed == "Safari")
+    {
+        string PreloadHTMLCode = @"<link rel='preload' as='image' imagesrcset='https://via.placeholder.com/320x240.jpg?text=img1jpg-320x240+jpg 320w, https://via.placeholder.com/450x338.jpg?text=img1jpg-450x338+jpg 450w, https://via.placeholder.com/500x360.jpg?text=img1jpg-500x360+jpg 500w, https://via.placeholder.com/750x562.jpg?text=img1jpg-750x562+jpg 750w, https://via.placeholder.com/970x545.jpg?text=img1jpg-970x545+jpg 970w, https://via.placeholder.com/1170x658.jpg?text=img1jpg-1170x658+jpg 1170w, https://via.placeholder.com/1500x844.jpg?text=img1jpg-1500x844+jpg 15000w, https://via.placeholder.com/1800x1040.jpg?text=img1jpg-1800x1040+jpg 1800w' imagesizes='(min-width: 200px) 90vw, (min-width: 449px) 90vw, (min-width: 499px) 90vw, (min-width: 749px) 90vw, (min-width: 969px) 90vw, (min-width: 1169px) 90vw, (min-width: 1499px) 90vw, (min-width: 1800px) 90vw, 90vw' crossorigin>";
+        ViewBag.HTMLCode = PreloadHTMLCode;
+    } else
+    {
+        string PreloadHTMLCode = @"<link rel='preload' as='image' imagesrcset='https://via.placeholder.com/320x240.webp?text=img1webp-320x240+webp 320w, https://via.placeholder.com/450x338.webp?text=img1webp-450x338+webp 450w, https://via.placeholder.com/500x360.webp?text=img1webp-500x360+webp 500w, https://via.placeholder.com/750x562.webp?text=img1webp-750x562+webp 750w, https://via.placeholder.com/970x545.webp?text=img1webp-970x545+webp 970w, https://via.placeholder.com/1170x658.webp?text=img1webp-1170x658+webp 1170w, https://via.placeholder.com/1500x844.webp?text=img1webp-1500x844+webp 15000w, https://via.placeholder.com/1800x1040.webp?text=img1webp-1800x1040+webp 1800w' imagesizes='(min-width: 200px) 90vw, (min-width: 449px) 90vw, (min-width: 499px) 90vw, (min-width: 749px) 90vw, (min-width: 969px) 90vw, (min-width: 1169px) 90vw, (min-width: 1499px) 90vw, (min-width: 1800px) 90vw, 90vw' crossorigin>";
+        ViewBag.HTMLCode = PreloadHTMLCode;
+    }
+
+    @*Picture test top*@
+    string PreloadPictureTestTop = @"<link rel='preload' as='image' imagesrcset='https://via.placeholder.com/320x240.webp?text=picturetop-320x240+webp 320w, https://via.placeholder.com/450x338.webp?text=picturetop-450x338+webp 450w, https://via.placeholder.com/500x360.webp?text=picturetop-500x360+webp 500w, https://via.placeholder.com/750x562.webp?text=picturetop-750x562+webp 750w, https://via.placeholder.com/970x545.webp?text=picturetop-970x545+webp 970w, https://via.placeholder.com/1170x658.webp?text=picturetop-1170x658+webp 1170w, https://via.placeholder.com/1500x844.webp?text=picturetop-1400x844+webp 1500w, https://via.placeholder.com/1800x1040.webp?text=picturetop-1800x1040+webp 1800w' imagesizes='(min-width: 200px) 90vw, (min-width: 400px) 90vw, (min-width: 499px) 90vw, (min-width: 749px) 90vw, (min-width: 899px) 90vw, (min-width: 1099px) 90vw, (min-width: 1400px) 90vw, (min-width: 1800px) 90vw, 90vw' crossorigin>";
+
+    ViewBag.PreloadPictureTestTop = PreloadPictureTestTop;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*https://web.dev/preload-responsive-images/*@
+    <link rel="preconnect" href="https://fonts.gstatic.google.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" as="style" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" crossorigin>
+
+    <link rel="preload" href="fonts/cicle_fina-webfont.woff2" as="font" type="font/woff2" crossorigin>
+
+    @*<link rel="preload" as="image" imagesrcset=" image-400.jpg 400w, image-800.jpg 800w, image-1600.jpg 1600w" imagesizes="100vw">*@
+
+    @Html.Raw(ViewBag.HTMLCode)
+
+    @Html.Raw(ViewBag.PreloadPictureTestTop)
+
+    <link rel="preload" href="small_cat.jpg" as="image" media="(max-width: 400px)" crossorigin>
+    <link rel="preload" href="medium_cat.jpg" as="image" media="(min-width: 400.1px) and (max-width: 800px)" crossorigin>
+    <link rel="preload" href="large_cat.jpg" as="image" media="(min-width: 800.1px)" crossorigin>
+    <link rel="preload" href="custom.js" as="script">
+    <link rel="preload" href="custom.css" as="style">
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <script>
+        console.log('test')
+        @*let elem = document.querySelector('div');*@
+        let elem = document.getElementById('first_grid_item_tag');
+        let rect = elem.getBoundingClientRect();
+        for (var key in rect) {
+            if (typeof rect[key] !== 'function') {
+                let para = document.createElement('p');
+                para.textContent = `${key} : ${rect[key]}`;
+                document.body.appendChild(para);
+                console.log(para.textContent);
+                console.log('test');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppExcelCrudNETFramework", "ConsoleAppExcelCrudNETFramework\ConsoleAppExcelCrudNETFramework.csproj", "{D120D301-90FD-4B05-8198-4481987F2414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D120D301-90FD-4B05-8198-4481987F2414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D120D301-90FD-4B05-8198-4481987F2414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D120D301-90FD-4B05-8198-4481987F2414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D120D301-90FD-4B05-8198-4481987F2414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F06811-302F-473A-A643-0F4B620AE422}
+	EndGlobalSection
+EndGlobal

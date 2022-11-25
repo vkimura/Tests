@@ -1,0 +1,8 @@
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\bin\Debug\01-ConsoleAppExcelReadNETFramework.exe.config
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\bin\Debug\01-ConsoleAppExcelReadNETFramework.exe
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\bin\Debug\01-ConsoleAppExcelReadNETFramework.pdb
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\obj\Debug\01-ConsoleAppExcelReadNETFramework.csproj.AssemblyReference.cache
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\obj\Debug\01-ConsoleAppExcelReadNETFramework.csproj.ResolveComReference.cache
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\obj\Debug\01-ConsoleAppExcelReadNETFramework.csproj.CoreCompileInputs.cache
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\obj\Debug\01-ConsoleAppExcelReadNETFramework.exe
+C:\Users\vkimura\source\repos\01-ConsoleAppExcelReadNETFramework\01-ConsoleAppExcelReadNETFramework\obj\Debug\01-ConsoleAppExcelReadNETFramework.pdb

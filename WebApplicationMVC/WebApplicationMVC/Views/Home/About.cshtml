@@ -1,0 +1,16 @@
+﻿@using WebApplicationMVC.Models
+
+@{
+    ViewBag.Title = "About";
+    var browserInfo = ViewBag.UserAgentInfo;
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<p>@ViewBag.UserAgent</p>
+
+<p>@ViewBag.UserHostName</p>
+
+<p>@browserInfo.BrowserUsed</p>

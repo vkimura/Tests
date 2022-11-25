@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-net4-webpack", "03-net4-webpack\03-net4-webpack.csproj", "{77A58366-F95C-4289-BCAA-5E6B3806715B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A58366-F95C-4289-BCAA-5E6B3806715B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A58366-F95C-4289-BCAA-5E6B3806715B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A58366-F95C-4289-BCAA-5E6B3806715B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A58366-F95C-4289-BCAA-5E6B3806715B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B430D47-8F24-4D9A-B4C7-CF1930899D40}
+	EndGlobalSection
+EndGlobal

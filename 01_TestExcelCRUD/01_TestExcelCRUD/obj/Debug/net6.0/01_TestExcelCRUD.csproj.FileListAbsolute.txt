@@ -1,0 +1,17 @@
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\bin\Debug\net6.0\01_TestExcelCRUD.exe
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\bin\Debug\net6.0\01_TestExcelCRUD.deps.json
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\bin\Debug\net6.0\01_TestExcelCRUD.runtimeconfig.json
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\bin\Debug\net6.0\01_TestExcelCRUD.dll
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\bin\Debug\net6.0\01_TestExcelCRUD.pdb
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\bin\Debug\net6.0\Microsoft.Office.Interop.Excel.dll
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.csproj.AssemblyReference.cache
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.AssemblyInfoInputs.cache
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.AssemblyInfo.cs
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.csproj.CoreCompileInputs.cache
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.csproj.CopyComplete
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.dll
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\refint\01_TestExcelCRUD.dll
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.pdb
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\01_TestExcelCRUD.genruntimeconfig.cache
+C:\Users\vkimura\source\repos\01_TestExcelCRUD\01_TestExcelCRUD\obj\Debug\net6.0\ref\01_TestExcelCRUD.dll

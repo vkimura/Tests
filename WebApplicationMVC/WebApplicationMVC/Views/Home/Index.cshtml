@@ -1,0 +1,248 @@
+﻿@using WebApplicationMVC.Models
+
+@{
+    ViewBag.Title = "Home Page";
+    var browserInfo = ViewBag.UserAgentInfo;
+
+}
+
+<div class="jumbotron">
+
+    <h1>ASP.NET</h1>
+
+    <p class="hero">test</p>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
+
+
+    <grid-container>
+        <grid-item>this text should be centered</grid-item>
+        <grid-item>this text should be centered</grid-item>
+        @*<grid-item><img src="http://i.imgur.com/60PVLis.png" width="50" height="50" alt=""></grid-item>
+            <grid-item><img src="http://i.imgur.com/60PVLis.png" width="50" height="50" alt=""></grid-item>*@
+        <grid-item id="first_grid_item_tag">@*This is the correct way to handle images in the grid. Set width and height.*@
+            <picture id="first_grid_item_picture_tag" style="object-fit: contain;">
+                <source media="(min-width: 1800px)" style="object-fit: contain;" srcset="https://via.placeholder.com/850x567.webp?text=grid1-850x567+webp 1800w" width="850" height="567" sizes="(min-width: 1800px) 90vw" type="image/webp" />
+                <source media="(min-width: 1400px)" srcset="https://via.placeholder.com/700x467.webp?text=grid1-700x467+webp 1500w" width="700" height="467" sizes="(min-width: 1400px) 90vw" type="image/webp" />
+                <source media="(min-width: 1099px)" srcset="https://via.placeholder.com/550x366.webp?text=grid1-550x366+webp 1170w" width="550" height="366" sizes="(min-width: 1099px) 90vw" type="image/webp" />
+                <source media="(min-width: 899px)" srcset="https://via.placeholder.com/475x316.webp?text=grid1-475x316+webp 970w" width="475" height="316" sizes="(min-width: 899px) 90vw" type="image/webp" />
+                <source media="(min-width: 749px)" srcset="https://via.placeholder.com/300x200.webp?text=grid1-300x200+webp 750w" width="300" height="200" sizes="(min-width: 749px) 90vw" type="image/webp" />
+                <source media="(min-width: 499px)" srcset="https://via.placeholder.com/240x160.webp?text=grid1-240x160+webp 500w" width="240" height="160" sizes="(min-width: 499px) 90vw" type="image/webp" />
+                <source media="(min-width: 400px)" srcset="https://via.placeholder.com/215x140.webp?text=grid1-215x140+webp 450w" width="215" height="140" sizes="(min-width: 400px) 90vw" type="image/webp" />
+                <source media="(min-width: 200px" srcset="https://via.placeholder.com/150x100.webp?text=grid1-150x100+webp 320w" width="150" height="100" sizes="(max-width: 399px) 90vw" type="image/webp" />
+
+                <img src="https://via.placeholder.com/970x545.jpg?text=test1-ASP.NET"
+                     alt="picture_test1 970x454"
+                     style="height: 100%; width: 100%; object-fit: contain;"
+                     loading="lazy" width="970" height="545" />
+            </picture>
+        </grid-item>
+        <grid-item>
+            <picture style="object-fit: contain; width: 175px;">
+                <source media="(min-width: 1800px)" style="object-fit: contain;" srcset="https://via.placeholder.com/1800x1040.webp?text=grid2-1800x1040+webp 1800w" width="1800" height="1040" sizes="(min-width: 1800px) 90vw" type="image/webp" />
+                <source media="(min-width: 1400px)" srcset="https://via.placeholder.com/1500x844.webp?text=grid2-1400x844+webp 1500w" width="1400" height="844" sizes="(min-width: 1400px) 90vw" type="image/webp" />
+                <source media="(min-width: 1099px)" srcset="https://via.placeholder.com/1170x658.webp?text=grid2-1170x658+webp 1170w" width="1176" height="658" sizes="(min-width: 1099px) 90vw" type="image/webp" />
+                <source media="(min-width: 899px)" srcset="https://via.placeholder.com/970x545.webp?text=grid2-970x545+webp 970w" width="970" height="545" sizes="(min-width: 899px) 90vw" type="image/webp" />
+                <source media="(min-width: 749px)" srcset="https://via.placeholder.com/750x562.webp?text=grid2-750x562+webp 750w" width="750" height="562" sizes="(min-width: 749px) 90vw" type="image/webp" />
+                <source media="(min-width: 499px)" srcset="https://via.placeholder.com/500x360.webp?text=grid2-500x360+webp 500w" width="500" height="360" sizes="(min-width: 499px) 90vw" type="image/webp" />
+                <source media="(min-width: 400px)" srcset="https://via.placeholder.com/450x338.webp?text=grid2-450x338+webp 450w" width="450" height="338" sizes="(min-width: 400px) 90vw" type="image/webp" />
+                <source media="(min-width: 200px" srcset="https://via.placeholder.com/320x240.webp?text=grid2-320x240+webp 320w" width="320" height="240" sizes="(max-width: 399px) 90vw" type="image/webp" />
+
+                <img src="https://via.placeholder.com/970x545.jpg?text=test1-ASP.NET"
+                     alt="picture_test1 970x454"
+                     style="height: 100%; width: 100%; object-fit: contain;"
+                     loading="lazy" width="970" height="545" />
+            </picture>
+        </grid-item>
+    </grid-container>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.Raw(ViewBag.HTMLCode)
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div style="display: grid; -ms-align-content: center; -webkit-align-content: center; align-content: center; justify-content: center;">
+            <h2>Picture test top</h2>
+            <picture style="height: 100%; object-fit: contain;">
+                <source media="(min-width: 1800px)" style="object-fit: contain;" srcset="https://via.placeholder.com/1800x1040.webp?text=picturetop-1800x1040+webp 1800w" width="1800" height="1040" sizes="(min-width: 1800px) 90vw" type="image/webp" />
+                <source media="(min-width: 1400px)" srcset="https://via.placeholder.com/1500x844.webp?text=picturetop-1400x844+webp 1500w" width="1400" height="844" sizes="(min-width: 1400px) 90vw" type="image/webp" />
+                <source media="(min-width: 1099px)" srcset="https://via.placeholder.com/1170x658.webp?text=picturetop-1170x658+webp 1170w" width="1176" height="658" sizes="(min-width: 1099px) 90vw" type="image/webp" />
+                <source media="(min-width: 899px)" srcset="https://via.placeholder.com/970x545.webp?text=picturetop-970x545+webp 970w" width="970" height="545" sizes="(min-width: 899px) 90vw" type="image/webp" />
+                <source media="(min-width: 749px)" srcset="https://via.placeholder.com/750x562.webp?text=picturetop-750x562+webp 750w" width="750" height="562" sizes="(min-width: 749px) 90vw" type="image/webp" />
+                <source media="(min-width: 499px)" srcset="https://via.placeholder.com/500x360.webp?text=picturetop-500x360+webp 500w" width="500" height="360" sizes="(min-width: 499px) 90vw" type="image/webp" />
+                <source media="(min-width: 400px)" srcset="https://via.placeholder.com/450x338.webp?text=picturetop-450x338+webp 450w" width="450" height="338" sizes="(min-width: 400px) 90vw" type="image/webp" />
+                <source media="(min-width: 200px" srcset="https://via.placeholder.com/320x240.webp?text=picturetop-320x240+webp 320w" width="320" height="240" sizes="(max-width: 399px) 90vw" type="image/webp" />
+
+                <img src="https://via.placeholder.com/970x545.jpg?text=test1-ASP.NET"
+                     alt="picture_test1 970x454"
+                     style="height: 100%; width: 100%; object-fit: contain;"
+                     loading="lazy" width="970" height="545" />
+            </picture>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div style="display: grid; -ms-align-content: center; -webkit-align-content: center; align-content: center; justify-content: center;">
+            <h2>img1 image</h2>
+
+            <img style="height: 100%; width: 100%; object-fit: contain;"
+                 sizes="
+                    (min-width: 200px) 90vw,
+                    (min-width: 449px) 90vw,
+                    (min-width: 499px) 90vw,
+                    (min-width: 749px) 90vw,
+                    (min-width: 969px) 90vw,
+                    (min-width: 1169px) 90vw,
+                    (min-width: 1499px) 90vw,
+                    (min-width: 1800px) 90vw
+                    90vw
+             "
+                 srcset="https://via.placeholder.com/320x240.webp?text=img1-320x240_webp 320w,
+                https://via.placeholder.com/450x338.webp?text=img1-450x338_webp 450w,
+                https://via.placeholder.com/500x360.webp?text=img1-500x360_webp 500w,
+                https://via.placeholder.com/750x562.webp?text=img1-750x562+webp 750w,
+                https://via.placeholder.com/970x545.webp?text=img1-970x545+webp 970w,
+                https://via.placeholder.com/1170x658.webp?text=img1-1170x658+webp 1170w,
+                https://via.placeholder.com/1500x844.webp?text=img1-1500x844+webp 15000w,
+                https://via.placeholder.com/1800x1040.webp?text=img1-1800x1040+webp 1800w
+         " />
+        </div>
+
+        <div style="display: grid; -ms-align-content: center; -webkit-align-content: center; align-content: center; justify-content: center;">
+            <h2>Picture test1</h2>
+            @*Note - When setting the media query here and if using max-width (as opposed to min-width) then use the lowest valued dimensions first in the list of sources. If using the min-width first then set the highest valued width first in the list (see <img> tag example below <h2>Image</h2>. *@
+            <picture style="height: 100%;">
+                <source media="(min-width: 1800px)" srcset="https://via.placeholder.com/1800x1040.webp?text=test1-1800x1040+webp 1800w" width="1800" sizes="(min-width:1800px) 90vw" type="image/webp" />
+                <source media="(min-width: 1499px)" srcset="https://via.placeholder.com/1500x844.webp?text=test1-1400x844+webp 1500w" width="1500" sizes="(min-width:1499px) 90vw" type="image/webp" />
+                <source media="(min-width: 1169px)" srcset="https://via.placeholder.com/1170x658.webp?text=test1-1170x658+webp 1170w" width="1170" sizes="(min-width:1169px) 90vw" type="image/webp" />
+                <source media="(min-width: 969px)" srcset="https://via.placeholder.com/970x545.webp?text=test1-970x545+webp 970w" width="970" sizes="(min-width:969px) 90vw" type="image/webp" />
+                <source media="(min-width: 749px)" srcset="https://via.placeholder.com/750x562.webp?text=test1-750x562+webp 750w" width="750" sizes="(min-width:749px) 90vw" type="image/webp" />
+                <source media="(min-width: 499px)" style="object-fit: contain;" srcset="https://via.placeholder.com/500x360.webp?text=test1-500x360+webp 500w" width="500" sizes="(min-width:499px) 90vw" type="image/webp" />
+                <source media="(min-width: 449px)" style=" object-fit: contain;" srcset="https://via.placeholder.com/450x338.webp?text=test1-450x338+webp 450w" width="450" sizes="(min-width:449px) 90vw" type="image/webp" />
+                <source media="(max-width: 399px)" style=" object-fit: contain;" srcset="https://via.placeholder.com/320x240.webp?text=test1-320x240+webp 320w" width="320" sizes="(max-width: 399px) 90vw" type="image/webp" />
+
+                <source media="(min-width: 1800px)" srcset="https://via.placeholder.com/1800x1040.jpg?text=test1-1800x1040+jpg 1800w" width="1800" sizes="(min-width:1800px) 90vw" type="image/jpeg" />
+                <source media="(min-width: 1499px)" srcset="https://via.placeholder.com/1500x844.jpg?text=test1-1400x844+jpg 1500w" width="1500" sizes="(min-width:1499px) 90vw" type="image/jpeg" />
+                <source media="(min-width: 1169px)" srcset="https://via.placeholder.com/1170x658.jpg?text=test1-1170x658+jpg 1170w" width="1170" sizes="(min-width:1169px) 90vw" type="image/jpeg" />
+                <source media="(min-width: 969px)" srcset="https://via.placeholder.com/970x545.jpg?text=test1-970x545+jpg 970w" width="970" sizes="(min-width:969px) 90vw" type="image/jpeg" />
+                <source media="(min-width: 749px)" srcset="https://via.placeholder.com/750x562.jpg?text=test1-750x562+jpg 750w" width="750" sizes="(min-width:749px) 90vw" type="image/jpeg" />
+                <source media="(min-width: 499px)" style="object-fit: contain;" srcset="https://via.placeholder.com/500x360.jpg?text=test1-500x360+jpg 500w" width="500" sizes="(min-width:499px) 90vw" type="image/jpeg" />
+                <source media="(min-width: 449px)" style=" object-fit: contain;" srcset="https://via.placeholder.com/450x338.jpg?text=test1-450x338+jpg 450w" width="450" sizes="(min-width:449px) 90vw" type="image/jpeg" />
+                <source media="(max-width: 399px)" style=" object-fit: contain;" srcset="https://via.placeholder.com/320x240.jpg?text=test1-320x240+jpg 320w" width="320" sizes="(max-width: 399px) 90vw" type="image/jpeg" />
+
+                @*TODO: need to create media queries for the jpg format for safari and other devices.
+                    See the mobile devices. Also, need to check if I can use ngrok or set up Azure devops website. (vk Thu 7 Oct 2021 16:35) *@
+                @*<img src="https://via.placeholder.com/970x545.jpg?text=test1-ASP.NET"
+                    alt="picture_test1 970x454"
+                    style="object-fit: contain;"
+                    loading="lazy" width="970" height="545" />*@
+
+                <img style="height: 100%; width: 100%; object-fit: contain;" loading="lazy" alt="picture_test1 970x454"
+                     sizes="
+                    (min-width: 200px) 90vw,
+                    (min-width: 449px) 90vw,
+                    (min-width: 499px) 90vw,
+                    (min-width: 749px) 90vw,
+                    (min-width: 969px) 90vw,
+                    (min-width: 1169px) 90vw,
+                    (min-width: 1499px) 90vw,
+                    (min-width: 1800px) 90vw,
+                    90vw
+             "
+                     srcset="https://via.placeholder.com/320x240.jpg?text=imgtest1-320x240+jpg 320w,
+                https://via.placeholder.com/450x338.jpg?text=imgtest1-450x338+jpg 450w,
+                https://via.placeholder.com/500x360.jpg?text=imgtest1-500x360+jpg 500w,
+                https://via.placeholder.com/750x562.jpg?text=imgtest1-750x562+jpg 750w,
+                https://via.placeholder.com/970x545.jpg?text=imgtest1-970x545+jpg 970w,
+                https://via.placeholder.com/1170x658.jpg?text=imgtest1-1170x658+jpg 1170w,
+                https://via.placeholder.com/1500x844.jpg?text=imgtest1-1500x844+jpg 15000w,
+                https://via.placeholder.com/1800x1040.jpg?text=imgtest1-1800x1040+jpg 1800w
+         " />
+            </picture>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Image</h2>
+
+        @*TODO: double-check width and height in Site.css file media queries (vk Wed 6 Oct 2021 16:32)
+            Note - Also, when using min-width set the highest valued dimensions
+        *@
+
+        <p>
+            tUt fusce varius nisl ac ipsum gravida vel pretium tellus tincidunt integer eu augue augue nunc elit dolor, luctus placerat.
+        </p>
+
+        <div style="display: grid; -ms-align-content: center; -webkit-align-content: center; align-content: center; -webkit-justify-content: center; justify-content: center;">
+            <img style="height: 100%; width: 100%; object-fit: cover;"
+                 sizes="
+                    (min-width: 200px) 90vw,
+                    (min-width: 449px) 90vw,
+                    (min-width: 499px) 90vw,
+                    (min-width: 749px) 90vw,
+                    (min-width: 969px) 90vw,
+                    (min-width: 1169px) 90vw,
+                    (min-width: 1499px) 90vw,
+                    (min-width: 1800px) 90vw,
+                    90vw
+             "
+                 srcset="https://via.placeholder.com/320x240.webp?text=img-320x240_webp 320w,
+                https://via.placeholder.com/450x338.webp?text=img-450x338_webp 450w,
+                https://via.placeholder.com/500x360.webp?text=img-500x360_webp 500w,
+                https://via.placeholder.com/750x562.webp?text=img-750x562+webp 750w,
+                https://via.placeholder.com/970x545.webp?text=img-970x545+webp 970w,
+                https://via.placeholder.com/1170x658.webp?text=img-1170x658+webp 1170w,
+                https://via.placeholder.com/1500x844.webp?text=img-1500x844+webp 15000w,
+                https://via.placeholder.com/1800x1040.webp?text=img-1800x1040+webp 1800w
+         " />
+        </div>
+
+        <h2>Test object-fit to within div</h2>
+
+        @*<div style='height: 100%; background-color: red'>
+            <img style='height: 100%; width:150px; object-fit: cover;' src='http://www.sherkspear.com/wp-content/uploads/2015/04/jsfiddle.png' />
+        </div>*@
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>

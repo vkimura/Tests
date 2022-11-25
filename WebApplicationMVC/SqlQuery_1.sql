@@ -1,0 +1,1 @@
+﻿select * from dbo.Campuses rownumber between 10 and 20;
